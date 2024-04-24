@@ -1,0 +1,362 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Alegreya Sans", sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Alegreya", serif;
+}
+.clear-float{
+    clear: both;
+}
+.clear{
+    clear: both;
+}
+/* global values */
+
+
+/* Hedare section */
+
+.hader .hader-nav {
+    width: 90%;
+    margin: auto;
+}
+.hader .hader-nav .nav-inage{
+    width: 15%;
+    padding: 30px;
+    float: left;
+}
+.hader .hader-nav .nav-inage img{
+    width:100%;
+    color: aliceblue;
+}
+.hader .hader-nav .nav-ul{
+    float: right;
+    padding: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.hader .hader-nav .nav-ul li{
+    float: left;
+    margin-right: 20px;
+    list-style: none;
+    color: white;
+}
+
+.hader{
+    background-image: url('../images/drew-coffman-1872.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    overflow: auto;
+}
+.hader .hader-text{
+    color: white;
+    text-align: center;
+    margin-top: 140px;
+}
+.hader .hader-text .hader-p1{
+    font-size: 22px;
+    font-weight: 400;
+    
+}
+.hader .hader-text .hader-p2{
+    font-size: 24px;
+    font-weight: 400;
+    width: 600px;
+    margin: auto;
+}
+.hader .hader-text h1{
+    font-size: 76px;
+    font-weight: 400;
+    margin-block:30px ;
+}
+.hader .hader-text button{
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 6px;
+    color: white;
+}
+.hader .hader-text .bt1{
+    background-color: #8E7754;
+    border: 2px solid #8E7754;
+    margin-right: 10px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.hader .hader-text .bt2{
+    background-color: transparent;
+    border: 2px solid rgb(187, 187, 187);
+    font-size: 17px;
+    font-weight: 400;
+}
+.sercal{
+    width: 26px;
+    height: 60px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 40px;
+    border: 2px solid white;
+}
+.sercal .sercal-dot{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 10px;
+    position: relative;
+    animation: dotmove infinite 2s ;
+}
+@keyframes dotmove {
+    0%{
+        top:0%; opacity: 0;
+    }
+    100%{
+        top: 50%; opacity: 1;
+    }
+}
+
+/* who we are section */
+
+.who-we-are{
+    width: 80%;
+    margin: auto;
+    margin-block: 80px;
+}
+.Who-we-are-contaner .who-image{
+    width: 46%;
+    float: left;
+    margin-right: 90px;
+}
+.Who-we-are-contaner .who-image img{
+    width: 100%;
+}
+.Who-we-are-contaner .who-text{
+    width: 44%;
+    float: right;
+    margin-block: 30px;
+}
+.Who-we-are-contaner .who-text h2{
+    font-size: 32px;
+    font-weight: 400;
+}
+.Who-we-are-contaner .who-text p{
+    font-size: 17px;
+    font-weight: 400;
+    margin-block: 10px;
+    line-height: 28px;
+}
+.Who-we-are-contaner .who-text ul li{
+    list-style: none;
+    margin-block: 25px;
+}
+.Who-we-are-contaner .who-text ul span{
+    font-size: 17px;
+    font-weight: 400;
+}
+.Who-we-are-contaner .who-text ul i{
+    padding: 13px;
+    margin-right: 13px;
+    border-radius: 50%;
+    color: #8E7754;
+    border: 1px solid #8E7754;
+}
+
+/* our Location section */
+.Our-Location-contaner{
+    background-color: #F8F8F8;
+}
+.Our-Location-contaner .our-image{
+    width: 44%;
+    float: right;
+    margin-left: 90px;
+    margin-block:80px ;
+}
+.Our-Location{
+    width: 80%;
+    margin: auto;
+    margin-block: 80px;
+}
+.Our-Location-contaner .our-image img{
+    width: 100%;
+}
+.Our-Location-contaner .our-text{
+    width: 46%;
+    float: left;
+    margin-block: 150px;
+}
+.Our-Location-contaner .our-text h2{
+    font-size: 32px;
+    font-weight: 400;
+}
+.Our-Location-contaner .our-text p{
+    font-size: 17px;
+    font-weight: 400;
+    margin-block: 10px;
+    line-height: 28px;
+}
+/* our baking section */
+.Our-baking-contaner{
+    width: 90%;
+    margin: auto;
+    margin-block: 80px;
+}
+.Our-baking-contaner .baking-text{
+    text-align: center;
+}
+.Our-baking-contaner .baking-text h3{
+    font-size: 30px;
+    font-weight: 400;
+}
+.Our-baking-contaner .baking-text p{
+    font-size: 17px;
+    font-weight: 400;
+    margin-block: 20px;
+}
+.baking-item{
+    width: 33%;
+    float: left;
+    text-align: center;
+    padding: 23px;
+}
+.baking-item img{
+    width: 100%;
+}
+.baking-item h4{
+    font-size: 22px;
+    font-weight: 400;
+    margin-block: 20px;
+}
+.baking-item p{
+    font-size: 17px;
+    font-weight: 400;
+}
+/* Contact Information section */
+
+.Contact-Information-contaner {
+    background-color: #F8F8F8;
+}
+.Contact-Information{
+    width: 80%;
+    margin: auto;
+}
+.Contact-Information-contaner .Contact-image{
+    width: 49%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 100px;
+}
+.Contact-Information-contaner .Contact-image img{
+    width: 100%;
+}
+.Contact-Information-contaner .Contact-text{
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-block: 70px;
+}
+.Contact-Information-contaner .Contact-text h2{
+    font-size: 32px;
+    font-weight: 400;
+}
+.Contact-Information-contaner .Contact-text p{
+    font-size: 17px;
+    font-weight: 400;
+    margin-block: 10px;
+    line-height: 28px;
+}
+.Contact-Information-contaner .Contact-text .Contact-text-p{
+    margin-block: 35px;
+}
+.Contact-Information-contaner .Contact-text ul li{
+    list-style: none;
+    margin-block: 25px;
+}
+.Contact-Information-contaner .Contact-text ul span{
+    font-size: 17px;
+    font-weight: 400;
+}
+.Contact-Information-contaner .Contact-text ul i{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+    margin-right: 10px;
+    color: white;
+    background-color:#8E7754;
+    border-radius: 50%;
+    line-height: 20px;
+}
+
+/* About section */
+
+.About-us-contaner{
+    background-image: url('images/contact-details-map.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #403D38;
+}
+.deta{
+    width: 90%;
+    margin: auto;
+}
+.text{
+    float: left;
+    width: 25%;
+    margin-block: 50px;
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.629);
+}
+.text h4{
+    font-size: 18px;
+    font-weight: 400;
+}
+.text p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.text h4{
+    margin-bottom: 20px;
+}
+.text ul li{
+    padding: 7px;
+    list-style: none;
+    border-bottom:1px solid #4A4742 ;
+    padding-bottom:10px ;
+    margin-bottom: 10px;
+}
+.text ul li i{
+    color: white;
+    margin-right: 10px;
+}
+
+/* fotter section */
+
+.footer{
+    background-color: #35332F;
+    padding-block:20px ;
+    text-align: center;
+}
+.footer img{
+    margin-block: 30px;
+}
+.footer p{
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.395);
+}
+.footer .sos-icon i{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    color: rgba(255, 255, 255, 0.395);
+    background-color: #494640;
+    border-radius: 50%;
+    line-height: 40px;
+}

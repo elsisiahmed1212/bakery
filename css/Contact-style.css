@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Alegreya Sans", sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Alegreya", serif;
+}
+.clear-float{
+    clear: both;
+}
+.clear{
+    clear: both;
+}
+/* global values */
+
+
+/* Hedare section */
+.hader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #fff; 
+}
+.hader .hader-nav {
+    width: 90%;
+    margin: auto;
+}
+.hader .hader-nav .nav-inage{
+    width: 15%;
+    padding: 30px;
+    float: left;
+}
+.hader .hader-nav .nav-inage img{
+    width:100%;
+}
+.hader .hader-nav .nav-ul{
+    float: right;
+    padding: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.hader .hader-nav .nav-ul li{
+    float: left;
+    margin-right: 20px;
+    list-style: none;
+    color: black;
+}
+/* Contact body section */
+.Contact-section{
+    margin-top: 100px;
+    background-image: url('../images/drew-coffman-1872.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.Contact-section .Contact-text{
+    color: #FFFFFF;
+    overflow: auto;
+}
+.Contact-section .Contact-text h1{
+    font-size: 56px;
+    font-weight: 400;
+    margin-block: 32px;
+}
+.Contact-section .Contact-text p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+/* Contact section */
+
+.Contact-float{
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+    padding: 10px;
+    margin-block:50px ;
+}
+.Contact-form{
+    width: 60%;
+    float: left;
+    padding-right: 40px;
+}
+.Contact-form h3{
+    font-size: 28px;
+    font-weight: 400;
+}
+.Contact-form form input,textarea{
+    width: 100%;
+    padding: 13px;
+    border: 1px solid rgb(171, 171, 171);
+    margin-bottom: 15px;
+}
+.Contact-form .f-name{
+    width: 50%;
+    float: left;
+    padding-right: 10px;
+}
+.Contact-form .f-name input{
+    width: 100%;
+    padding: 13px;
+    border: 1px solid rgb(171, 171, 171);
+    margin-top:30px ;
+    margin-bottom: 20px;
+}
+.Contact-form .u-email input{
+    width: 100%;
+    padding: 13px;
+    border: 1px solid rgb(171, 171, 171);
+    margin-top:30px ;
+    margin-bottom: 20px;
+}
+.Contact-form .u-email{
+    width: 50%;
+    float: right;
+    padding-left: 10px;
+}
+.Contact-form form button{
+    width: 10%;
+    padding: 17px;
+    border: none;
+    border-radius: 5px;
+    background-color: #8E7754;
+    color: white;
+}
+.Contact-section-text{
+    width: 40%;
+    float: right;
+    padding-left: 40px;
+}
+
+.Contact-section-text .Contact-text h2{
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.CContact-section-text .Contact-text p{
+    font-size: 17px;
+    font-weight: 400;
+    margin-block: 10px;
+    line-height: 28px;
+}
+.Contact-section-text .Contact-text .Contact-text-p{
+    margin-block: 35px;
+}
+.Contact-section-text .Contact-text ul li{
+    list-style: none;
+    margin-block: 25px;
+}
+.Contact-section-text .Contact-text ul span{
+    font-size: 17px;
+    font-weight: 400;
+}
+.Contact-section-text .Contact-text ul i{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+    margin-right: 10px;
+    color: white;
+    background-color:#8E7754;
+    border-radius: 50%;
+    line-height: 20px;
+}
+
+/* maps section */
+.map-contaner iframe{
+    width: 100%;
+}
+/* About section */
+.About-us-contaner{
+    background-image: url('images/contact-details-map.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #403D38;
+}
+.deta{
+    width: 90%;
+    margin: auto;
+}
+.text{
+    float: left;
+    width: 25%;
+    margin-block: 50px;
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.629);
+}
+.text h4{
+    font-size: 18px;
+    font-weight: 400;
+}
+.text p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.text h4{
+    margin-bottom: 20px;
+}
+.text ul li{
+    padding: 7px;
+    list-style: none;
+    border-bottom:1px solid #4A4742 ;
+    padding-bottom:10px ;
+    margin-bottom: 10px;
+}
+.text ul li i{
+    color: white;
+    margin-right: 10px;
+}
+
+/* fotter section */
+
+.footer{
+    background-color: #35332F;
+    padding-block:20px ;
+    text-align: center;
+}
+.footer img{
+    margin-block: 30px;
+}
+.footer p{
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.395);
+}
+.footer .sos-icon i{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    color: rgba(255, 255, 255, 0.395);
+    background-color: #494640;
+    border-radius: 50%;
+    line-height: 40px;
+}

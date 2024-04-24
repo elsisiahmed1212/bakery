@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Alegreya Sans", sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Alegreya", serif;
+}
+.clear-float{
+    clear: both;
+}
+.clear{
+    clear: both;
+}
+/* global values */
+
+
+/* Hedare section */
+.hader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #fff; 
+}
+.hader .hader-nav {
+    width: 90%;
+    margin: auto;
+}
+.hader .hader-nav .nav-inage{
+    width: 15%;
+    padding: 30px;
+    float: left;
+}
+.hader .hader-nav .nav-inage img{
+    width:100%;
+}
+.hader .hader-nav .nav-ul{
+    float: right;
+    padding: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.hader .hader-nav .nav-ul li{
+    float: left;
+    margin-right: 20px;
+    list-style: none;
+    color: black;
+}
+/* About section */
+.About-section{
+    margin-top: 100px;
+    background-image: url('../images/drew-coffman-1872.jpg');
+    background-position: bottom;
+    background-size: cover;
+    text-align: center;
+}
+.About-section .About-text{
+    color: white;
+    overflow: auto;
+}
+.About-section .About-text h1{
+    font-size: 56px;
+    font-weight: 400;
+    margin-block: 32px;
+}
+.About-section .About-text p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+/* who we are section */
+
+.Our-Story{
+    width: 80%;
+    margin: auto;
+    background-color: #4A4742;
+}
+.Our-Story-contaner{
+    margin-block: 80px;
+}
+.Our-Story-contaner .Our-Story-image{
+    width: 46%;
+    float: left;
+    margin-right: 90px;
+}
+.Our-Story-contaner .Our-Story-image img{
+    width: 100%;
+}
+.Our-Story-contaner .Our-Story-text{
+    width: 44%;
+    float: right;
+    position: relative;
+    top: 100px;
+    
+}
+.Our-Story-contaner .Our-Story-text h2{
+    font-size: 32px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+.Our-Story-contaner .Our-Story-text p{
+    font-size: 17px;
+    font-weight: 400;
+    margin-block: 10px;
+    line-height: 28px;
+}
+.Our-Story-contaner .Our-Story-text .p-border{
+    width: 10%;
+    margin-block:30px;
+    border-bottom: 1px solid #7e7d7d;
+}
+
+/* Why our Bakery section */
+.Why-our-Bakery-contaner{
+    background-color: #F8F8F8;
+    overflow: auto;
+}
+
+.Why-our-Bakery{
+    width: 90%;
+    margin: auto;
+    margin-block: 50px;
+}
+.Why-our-Bakery-text{
+    text-align: center;
+}
+.Why-our-Bakery-text i{
+   font-size: 40px;
+   margin-top: 50px;
+   color: #8E7754;
+}
+.Why-our-Bakery-text h3,p{
+    margin-block: 20px;
+}
+.Why-our-Bakery-text h3{
+   font-size: 30px;
+   font-weight: 400;
+}
+.Why-our-Bakery-text p{
+   font-size: 17px;
+   font-weight: 400;
+}
+.Why-our-Bakery-item-contaner{
+    margin-bottom: 50px;
+}
+.Why-our-Bakery-item{
+    width: 33%;
+    float: left;
+    padding: 15px;
+}
+.Why-our-Bakery-item h5{
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.Why-our-Bakery-item p{
+    margin-bottom: 16px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+/* result section */
+
+.result{
+    background-color: #8E7754;
+}
+.result-contaner{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.result-contaner .item{
+    width: 25%;
+    float: left;
+    margin-block: 70px;
+    color: white;
+}
+.result-contaner .item i{
+    font-size: 32px;
+}
+.result-contaner .item .numper{
+    font-size: 52px;
+    font-weight: 400;
+}
+.result-contaner .item p{
+    font-size: 20px;
+    font-weight: 400;
+}
+/* About section */
+.About-us-contaner{
+    background-image: url('images/contact-details-map.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #403D38;
+}
+.deta{
+    width: 90%;
+    margin: auto;
+}
+.text{
+    float: left;
+    width: 25%;
+    margin-block: 50px;
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.629);
+}
+.text h4{
+    font-size: 18px;
+    font-weight: 400;
+}
+.text p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.text h4{
+    margin-bottom: 20px;
+}
+.text ul li{
+    padding: 7px;
+    list-style: none;
+    border-bottom:1px solid #4A4742 ;
+    padding-bottom:10px ;
+    margin-bottom: 10px;
+}
+.text ul li i{
+    color: white;
+    margin-right: 10px;
+}
+
+/* fotter section */
+
+.footer{
+    background-color: #35332F;
+    padding-block:20px ;
+    text-align: center;
+}
+.footer img{
+    margin-block: 30px;
+}
+.footer p{
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.395);
+}
+.footer .sos-icon i{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    color: rgba(255, 255, 255, 0.395);
+    background-color: #494640;
+    border-radius: 50%;
+    line-height: 40px;
+}
